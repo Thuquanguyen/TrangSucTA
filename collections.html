@@ -9,27 +9,74 @@
     <link rel="stylesheet" href="assets/bootstrap4/css/bootstrap.min.css" >
 	<link rel="stylesheet" href="assets/style.css">
 	<link rel="stylesheet" href="assets/fontawesome/css/all.css">
-    <title>Hello, world!</title>
+    <title>collections</title>
   </head>
   <body>
 	<!-- collections -->
 	<div class="container">
 		<div class="row">
 			<!-- left menu -->
-			<div class="col-md-3">
-				
+			<div class="col-md-3 left-menu">
+				<p class="left-menu-header">danh mục</p>
+				<ul class="list-unstyled components">
+	                <li class="active">
+	                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class=" collapsed d-flex justify-content-between">
+	                    	<span>Home</span>
+							<span data-toggle="collapse" data-parent="#cssmenu" href="#sub-item-2" class="sign collapsed text-left">
+								<img src="images/left-menu-icon.png">
+							</span>
+	                    </a>
+	                    <ul class="list-unstyled collapse" id="homeSubmenu" style="">
+	                        <li class="left-menu-first">
+	                            <a href="#">Home 1</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Home 2</a>
+	                        </li>
+	                        <li class="left-menu-last">
+	                            <a href="#">Home 3</a>
+	                        </li>
+	                    </ul>
+	                </li>
+	                <li><a href="#">About</a></li>
+	                <li>
+	                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class=" collapsed d-flex justify-content-between">
+	                    	<span>Pages</span>
+							<span data-toggle="collapse" data-parent="#cssmenu" href="#sub-item-2" class="sign collapsed text-left">
+								<img src="images/left-menu-icon.png">
+							</span>
+	                    </a>
+	                    <ul class="list-unstyled collapse" id="pageSubmenu" style="">
+	                        <li class="left-menu-first">
+	                            <a href="#">Page 1</a>
+	                        </li>
+	                        <li>
+	                            <a href="#">Page 2</a>
+	                        </li>
+	                        <li class="left-menu-last">
+	                            <a href="#">Page 3</a>
+	                        </li>
+	                    </ul>
+	                </li>
+	                <li>
+	                    <a href="#">Portfolio</a>
+	                </li>
+	                <li>
+	                    <a href="#">Contact</a>
+	                </li>
+	            </ul>
 			</div>
 			<!-- content -->
 			<div class="col-md-9 c__right-content">
 				<!-- header content -->
-				<div class="row">
-					<div class="col-md-4">
+				<div class="row c__header-content">
+					<div class="col-md-5">
 						<h1>Lorem ipsum dolor sit amet, consectetur.</h1>
 					</div>
-					<div class="col-md-8">
-						<div class=" row c__sort">
+					<div class="col-md-7">
+						<div class=" row c__header-sort">
 							<div class="col-md-7 text-right">
-								<p>Sắp xếp theo: </p>
+								<p>Sắp xếp theo:</p>
 							</div>
 							<div class="col-md-5">
 								<select id="inputState" class="form-control">
@@ -40,19 +87,264 @@
 						</div>
 					</div>
 				</div>
+				<!-- end of header content -->
 				<!-- content product -->
 				<div class="row">
-					<div class="col-md-3">
-						qwe
+					<div class="col-md-3 c--fix-width">
+						<div class="product-item">
+							<div class="c__product-img">
+								<a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+							</div>
+							<div class="c__action">
+								<a class="c__btn-view" href="#">
+									<i class="far fa-chart-bar"></i>
+									<span>Xem nhanh</span>
+								</a>
+								<a class="c__btn-buy" href="#">
+									<span>+ Thêm vào giỏ</span>
+									<i class="fas fa-cart-plus"></i>
+								</a>
+							</div>
+							<div class="c__product-detail">
+								<h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+								<p class="c__product-cost">100.000d</p>
+								<div class="c__product-star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<span>(2 đánh giá)</span>
+							</div>
+						</div>
 					</div>
 					<div class="col-md-3">
-						qwe
+						<div class="product-item">
+							<div class="c__product-img">
+								<a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+							</div>
+							<div class="c__action">
+								<a class="c__btn-view" href="#">
+									<i class="far fa-chart-bar"></i>
+									<span>Xem nhanh</span>
+								</a>
+								<a class="c__btn-buy" href="#">
+									<span>+ Thêm vào giỏ</span>
+									<i class="fas fa-cart-plus"></i>
+								</a>
+							</div>
+							<div class="c__product-detail">
+								<h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+								<p class="c__product-cost">100.000d</p>
+								<div class="c__product-star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<span>(2 đánh giá)</span>
+							</div>
+						</div>
 					</div>
 					<div class="col-md-3">
-						qwe
+						<div class="product-item">
+							<div class="c__product-img">
+								<a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+							</div>
+							<div class="c__action">
+								<a class="c__btn-view" href="#">
+									<i class="far fa-chart-bar"></i>
+									<span>Xem nhanh</span>
+								</a>
+								<a class="c__btn-buy" href="#">
+									<span>+ Thêm vào giỏ</span>
+									<i class="fas fa-cart-plus"></i>
+								</a>
+							</div>
+							<div class="c__product-detail">
+								<h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+								<p class="c__product-cost">100.000d</p>
+								<div class="c__product-star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<span>(2 đánh giá)</span>
+							</div>
+						</div>
 					</div>
 					<div class="col-md-3">
-						qwe
+						<div class="product-item">
+							<div class="c__product-img">
+								<a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+							</div>
+							<div class="c__action">
+								<a class="c__btn-view" href="#">
+									<i class="far fa-chart-bar"></i>
+									<span>Xem nhanh</span>
+								</a>
+								<a class="c__btn-buy" href="#">
+									<span>+ Thêm vào giỏ</span>
+									<i class="fas fa-cart-plus"></i>
+								</a>
+							</div>
+							<div class="c__product-detail">
+								<h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+								<p class="c__product-cost">100.000d</p>
+								<div class="c__product-star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<span>(2 đánh giá)</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="product-item">
+							<div class="c__product-img">
+								<a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+							</div>
+							<div class="c__action">
+								<a class="c__btn-view" href="#">
+									<i class="far fa-chart-bar"></i>
+									<span>Xem nhanh</span>
+								</a>
+								<a class="c__btn-buy" href="#">
+									<span>+ Thêm vào giỏ</span>
+									<i class="fas fa-cart-plus"></i>
+								</a>
+							</div>
+							<div class="c__product-detail">
+								<h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+								<p class="c__product-cost">100.000d</p>
+								<div class="c__product-star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<span>(2 đánh giá)</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="product-item">
+							<div class="c__product-img">
+								<a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+							</div>
+							<div class="c__action">
+								<a class="c__btn-view" href="#">
+									<i class="far fa-chart-bar"></i>
+									<span>Xem nhanh</span>
+								</a>
+								<a class="c__btn-buy" href="#">
+									<span>+ Thêm vào giỏ</span>
+									<i class="fas fa-cart-plus"></i>
+								</a>
+							</div>
+							<div class="c__product-detail">
+								<h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+								<p class="c__product-cost">100.000d</p>
+								<div class="c__product-star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<span>(2 đánh giá)</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="product-item">
+							<div class="c__product-img">
+								<a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+							</div>
+							<div class="c__action">
+								<a class="c__btn-view" href="#">
+									<i class="far fa-chart-bar"></i>
+									<span>Xem nhanh</span>
+								</a>
+								<a class="c__btn-buy" href="#">
+									<span>+ Thêm vào giỏ</span>
+									<i class="fas fa-cart-plus"></i>
+								</a>
+							</div>
+							<div class="c__product-detail">
+								<h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+								<p class="c__product-cost">100.000d</p>
+								<div class="c__product-star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<span>(2 đánh giá)</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="product-item">
+							<div class="c__product-img">
+								<a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+							</div>
+							<div class="c__action">
+								<a class="c__btn-view" href="#">
+									<i class="far fa-chart-bar"></i>
+									<span>Xem nhanh</span>
+								</a>
+								<a class="c__btn-buy" href="#">
+									<span>+ Thêm vào giỏ</span>
+									<i class="fas fa-cart-plus"></i>
+								</a>
+							</div>
+							<div class="c__product-detail">
+								<h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+								<p class="c__product-cost">100.000d</p>
+								<div class="c__product-star">
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star"></i>
+									<i class="fas fa-star-half-alt"></i>
+								</div>
+								<span>(2 đánh giá)</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- pagination  -->
+				<div class="row">
+					<div class="col-md-2"></div>
+						<div class="col-md-8 d-flex align-items-center justify-content-center">
+							<div>
+								<ul class="pagination">
+							    <li class="page-item pagination__active"><a class="page-link" href="#">1</a></li>
+							    <li class="page-item ">
+							      <span class="page-link">
+							        2
+							        <span class="sr-only">(current)</span>
+							      </span>
+							    </li>
+							    <li class="page-item"><a class="page-link" href="#">3</a></li>
+							    <li class="page-item disabled"><a class="page-link" href="#">...</a></li>
+							    <li class="page-item"><a class="page-link" href="#">69</a></li>
+							  </ul>
+							</div>
+						</div>
+						<div class="col-md-2">
+							<div class="page-item"><a class="page-link" href="#">Trang sau ></a></div>
+						</div>
 					</div>
 				</div>
 			</div>
