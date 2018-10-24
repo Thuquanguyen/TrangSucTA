@@ -8,35 +8,488 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="assets/bootstrap4/css/bootstrap.min.css" >
 	<link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/fontawesome/css/all.css">
     <title>Hello, world!</title>
   </head>
   <body>
-  	<header class="top-bar">
-  		<div class="container">
-  			<div class="row">
-  				<div class="col-md-12">
-  					<div class="shopping-cart float-right">
-	  					<a href="#"><span>Gio hang:0</span></a>
-	  				</div>
-  				</div>
-  			</div>
-  		</div>
-  	</header>
-  	<section class="site__header">
-  		<div class="container">
-  			<div class="row">
-  				<div class="col-md-3">
-  					<img src="images/logo.png" alt="">
-  				</div>
-  				<div class="col-md-6">
-  					qwe
-  				</div>
-  				<div class="col-md-3">
-  					qwe
-  				</div>
-  			</div>
-  		</div>
-  	</section>
+    <section id="slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="images/slideshow_4.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/slideshow_1.jpg.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="images/slideshow_3.jpg" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="mt-2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+              <ul class="home__channel-list clearfix">
+                <li><a href=""><img src="images/icon/icon-1.png" alt="">Đồ gỗ</a></li>
+                <li><a href=""><img src="images/icon/icon-1.png" alt="">Đồ gỗ</a></li>
+                <li><a href=""><img src="images/icon/icon-1.png" alt="">Đồ gỗ</a></li>
+                <li><a href=""><img src="images/icon/icon-1.png" alt="">Đồ gỗ</a></li>
+                <li><a href=""><img src="images/icon/icon-1.png" alt="">Đồ gỗ</a></li>
+                <li><a href=""><img src="images/icon/icon-1.png" alt="">Đồ gỗ</a></li>
+              </ul>
+          </div>
+          <div class="col-md-9 pl-0 d-none d-md-block">
+            <ul class="home__img-banner clearfix pl-0">
+              <li class="ml-0"><a href=""><img src="images/img_banner_1.jpg" alt=""></a></li>
+              <li><a href=""><img src="images/img_banner_1.jpg" alt=""></a></li>
+              <li><a href=""><img src="images/img_banner_1.jpg" alt=""></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="rainbow-product">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12"><h2 class="home--product-title">đồng hồ gỗ</h2></div>
+          <!-- product -->
+          <div class="resize-col-5 col-sm-4 col-6">
+            <div class="home__product-rainbow rainbow-1">
+              <div class="c__product-img">
+                <a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+              </div>
+              <div class="c__action">
+                <a class="c__btn-view" href="#">
+                  <i class="far fa-chart-bar"></i>
+                  <span>Xem nhanh</span>
+                </a>
+                <a class="c__btn-buy" href="#">
+                  <span>+ Thêm vào giỏ</span>
+                  <i class="fas fa-cart-plus"></i>
+                </a>
+              </div>
+              <div class="c__product-detail">
+                <h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+                <p class="c__product-cost">100.000d</p>
+                <div class="c__product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>(2 đánh giá)</span>
+              </div>
+            </div>
+          </div>
+          <!-- end product -->
+          <!-- product -->
+          <div class="resize-col-5 col-sm-4 col-6">
+            <div class="home__product-rainbow rainbow-2">
+              <div class="c__product-img">
+                <a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+              </div>
+              <div class="c__action">
+                <a class="c__btn-view" href="#">
+                  <i class="far fa-chart-bar"></i>
+                  <span>Xem nhanh</span>
+                </a>
+                <a class="c__btn-buy" href="#">
+                  <span>+ Thêm vào giỏ</span>
+                  <i class="fas fa-cart-plus"></i>
+                </a>
+              </div>
+              <div class="c__product-detail">
+                <h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+                <p class="c__product-cost">100.000d</p>
+                <div class="c__product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>(2 đánh giá)</span>
+              </div>
+            </div>
+          </div>
+          <!-- end product -->
+          <!-- product -->
+          <div class="resize-col-5 col-sm-4 col-6">
+            <div class="home__product-rainbow rainbow-3">
+              <div class="c__product-img">
+                <a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+              </div>
+              <div class="c__action">
+                <a class="c__btn-view" href="#">
+                  <i class="far fa-chart-bar"></i>
+                  <span>Xem nhanh</span>
+                </a>
+                <a class="c__btn-buy" href="#">
+                  <span>+ Thêm vào giỏ</span>
+                  <i class="fas fa-cart-plus"></i>
+                </a>
+              </div>
+              <div class="c__product-detail">
+                <h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+                <p class="c__product-cost">100.000d</p>
+                <div class="c__product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>(2 đánh giá)</span>
+              </div>
+            </div>
+          </div>
+          <!-- end product -->
+          <!-- product -->
+          <div class="resize-col-5 col-sm-4 col-6">
+            <div class="home__product-rainbow rainbow-1">
+              <div class="c__product-img">
+                <a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+              </div>
+              <div class="c__action">
+                <a class="c__btn-view" href="#">
+                  <i class="far fa-chart-bar"></i>
+                  <span>Xem nhanh</span>
+                </a>
+                <a class="c__btn-buy" href="#">
+                  <span>+ Thêm vào giỏ</span>
+                  <i class="fas fa-cart-plus"></i>
+                </a>
+              </div>
+              <div class="c__product-detail">
+                <h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+                <p class="c__product-cost">100.000d</p>
+                <div class="c__product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>(2 đánh giá)</span>
+              </div>
+            </div>
+          </div>
+          <!-- end product -->
+          <!-- product -->
+          <div class="resize-col-5 col-sm-4 col-6">
+            <div class="home__product-rainbow rainbow-2">
+              <div class="c__product-img">
+                <a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+              </div>
+              <div class="c__action">
+                <a class="c__btn-view" href="#">
+                  <i class="far fa-chart-bar"></i>
+                  <span>Xem nhanh</span>
+                </a>
+                <a class="c__btn-buy" href="#">
+                  <span>+ Thêm vào giỏ</span>
+                  <i class="fas fa-cart-plus"></i>
+                </a>
+              </div>
+              <div class="c__product-detail">
+                <h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+                <p class="c__product-cost">100.000d</p>
+                <div class="c__product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>(2 đánh giá)</span>
+              </div>
+            </div>
+          </div>
+          <!-- end product -->
+          <div class="col-md-12 d-flex justify-content-end"><a href="#" class="home--btn-readmore">xem thêm</a></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12"><h2 class="home--product-title">đồng hồ gỗ</h2></div>
+          <!-- product -->
+          <div class="resize-col-5 col-sm-4 col-6">
+            <div class="product-item">
+              <div class="c__product-img">
+                <a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+              </div>
+              <div class="c__action">
+                <a class="c__btn-view" href="#">
+                  <i class="far fa-chart-bar"></i>
+                  <span>Xem nhanh</span>
+                </a>
+                <a class="c__btn-buy" href="#">
+                  <span>+ Thêm vào giỏ</span>
+                  <i class="fas fa-cart-plus"></i>
+                </a>
+              </div>
+              <div class="c__product-detail">
+                <h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+                <p class="c__product-cost">100.000d</p>
+                <div class="c__product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>(2 đánh giá)</span>
+              </div>
+            </div>
+          </div>
+          <!-- end product -->
+          <!-- product -->
+          <div class="resize-col-5 col-sm-4 col-6">
+            <div class="product-item">
+              <div class="c__product-img">
+                <a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+              </div>
+              <div class="c__action">
+                <a class="c__btn-view" href="#">
+                  <i class="far fa-chart-bar"></i>
+                  <span>Xem nhanh</span>
+                </a>
+                <a class="c__btn-buy" href="#">
+                  <span>+ Thêm vào giỏ</span>
+                  <i class="fas fa-cart-plus"></i>
+                </a>
+              </div>
+              <div class="c__product-detail">
+                <h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+                <p class="c__product-cost">100.000d</p>
+                <div class="c__product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>(2 đánh giá)</span>
+              </div>
+            </div>
+          </div>
+          <!-- end product -->
+          <!-- product -->
+          <div class="resize-col-5 col-sm-4 col-6">
+            <div class="product-item">
+              <div class="c__product-img">
+                <a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+              </div>
+              <div class="c__action">
+                <a class="c__btn-view" href="#">
+                  <i class="far fa-chart-bar"></i>
+                  <span>Xem nhanh</span>
+                </a>
+                <a class="c__btn-buy" href="#">
+                  <span>+ Thêm vào giỏ</span>
+                  <i class="fas fa-cart-plus"></i>
+                </a>
+              </div>
+              <div class="c__product-detail">
+                <h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+                <p class="c__product-cost">100.000d</p>
+                <div class="c__product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>(2 đánh giá)</span>
+              </div>
+            </div>
+          </div>
+          <!-- end product -->
+          <!-- product -->
+          <div class="resize-col-5 col-sm-4 col-6">
+            <div class="product-item">
+              <div class="c__product-img">
+                <a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+              </div>
+              <div class="c__action">
+                <a class="c__btn-view" href="#">
+                  <i class="far fa-chart-bar"></i>
+                  <span>Xem nhanh</span>
+                </a>
+                <a class="c__btn-buy" href="#">
+                  <span>+ Thêm vào giỏ</span>
+                  <i class="fas fa-cart-plus"></i>
+                </a>
+              </div>
+              <div class="c__product-detail">
+                <h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+                <p class="c__product-cost">100.000d</p>
+                <div class="c__product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>(2 đánh giá)</span>
+              </div>
+            </div>
+          </div>
+          <!-- end product -->
+          <!-- product -->
+          <div class="resize-col-5 col-sm-4 col-6">
+            <div class="product-item">
+              <div class="c__product-img">
+                <a href="#" title="Đồng hồ"><img src="images/product-img-1.jpg" alt=""></a>
+              </div>
+              <div class="c__action">
+                <a class="c__btn-view" href="#">
+                  <i class="far fa-chart-bar"></i>
+                  <span>Xem nhanh</span>
+                </a>
+                <a class="c__btn-buy" href="#">
+                  <span>+ Thêm vào giỏ</span>
+                  <i class="fas fa-cart-plus"></i>
+                </a>
+              </div>
+              <div class="c__product-detail">
+                <h3 class="c__product-name"><a href="#">product name Lorem ipsum dolor.</a></h3>
+                <p class="c__product-cost">100.000d</p>
+                <div class="c__product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>(2 đánh giá)</span>
+              </div>
+            </div>
+          </div>
+          <!-- end product -->
+          <div class="col-md-12 d-flex justify-content-end"><a href="#" class="home--btn-readmore">xem thêm</a></div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+  <section class="footer-main mt-3">
+    <div class="container">
+      <div class="row ft--border-bt">
+        <div class="col-md-3 my-4 mainFt__services ft_style-p">
+          <div class="ft__service-icon">
+            <i class="fas fa-truck"></i><span>Lorem ipsum dolor sit amet.</span>
+          </div>
+          <p>Lorem ipsum dolor sit.</p>
+          
+        </div>
+        <div class="col-md-3 my-4 mainFt__services ft_style-p">
+          <div class="ft__service-icon">
+            <i class="fas fa-cog"></i><span>Lorem ipsum dolor sit amet.</span>
+          </div>
+          <p>Lorem ipsum dolor sit.</p>
+          
+        </div>
+        <div class="col-md-3 my-4 mainFt__services ft_style-p">
+          <div class="ft__service-icon">
+            <i class="fas fa-phone"></i><span>Lorem ipsum dolor sit amet.</span>
+          </div>
+          <p>Lorem ipsum dolor sit.</p>
+          
+        </div>
+        <div class="col-md-3 my-4 mainFt__services ft_style-p">
+          <div class="ft__service-icon">
+            <i class="fas fa-clock"></i><span>Lorem ipsum dolor sit amet.</span>
+          </div>
+          <p>Lorem ipsum dolor sit.</p>
+          
+        </div>
+      </div>
+      <div class="row my-5">
+        <div class="col-md-2 footer__link">
+          <h4>Lorem ipsum.</h4>
+          <ul>
+            <li><a href="">Lorem ipsum dolor</a></li>
+            <li><a href="">Optio repellendus</a></li>
+            <li><a href="">Perspiciatis</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 footer__link">
+          <h4>Lorem ipsum.</h4>
+          <ul>
+            <li><a href="">Lorem ipsum dolor</a></li>
+            <li><a href="">Quas laboriosam</a></li>
+            <li><a href="">Perspiciatis</a></li>
+            <li><a href="">Perspiciatis</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 footer__link">
+          <h4>Lorem ipsum.</h4>
+          <ul>
+            <li><a href="">Lorem ipsum </a></li>
+            <li><a href="">Perspiciatis</a></li>
+            <li><a href="">Perspiciatis</a></li>
+            <li><a href="">Perspiciatis</a></li>
+            <li><a href="">Perspiciatis</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 footer__link mainFt__services">
+          <h4>Lorem ipsum dolor sit amet.</h4>
+        </div>
+        <div class="col-md-3 text-center">
+          <h4>01234567890</h4>
+          <p class="ft__sub-phone">Lorem ipsum dolor sit amet.</p>
+          <div class="ft__icon-box">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fas fa-rss"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="ft__info">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="ft__info-link">
+            
+          </div>
+          <div class="ft__coppyright">
+            <p>Copyright © 2018 Thanh Van. <span>Lorem ipsum.</span></p>
+          </div>
+        </div>
+        <div class="col-md-6 ft__payment">
+          <ul class="d-flex align-items-center justify-content-end">
+            <li><a href="#" title="Payment method"><img src="images/payment-1.png" alt="payment"></a></li>
+            <li><a href="#" title="Payment method"><img src="images/payment-2.png" alt="payment"></a></li>
+            <li><a href="#" title="Payment method"><img src="images/payment-3.png" alt="payment"></a></li>
+            <li><a href="#" title="Payment method"><img src="images/payment-4.png" alt="payment"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
